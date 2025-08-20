@@ -1,5 +1,8 @@
 package factory;
 
+// 2. FACTORY PATTERN
+// Nesne oluşturma işlemini bir factory sınıfına devreder
+
 abstract class Animal {
     public abstract void makeSound();
 }
