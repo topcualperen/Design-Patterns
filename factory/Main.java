@@ -21,6 +21,7 @@ class Cat extends Animal {
 
 class AnimalFactory {
     public static Animal createAnimal(String type) {
+        if (type == null || type.isEmpty()) return null;
         switch (type.toLowerCase()) {
             case "dog":
                 return new Dog();
