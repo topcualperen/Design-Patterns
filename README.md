@@ -24,6 +24,11 @@ This repository contains implementations of various design patterns in Java. Eac
 - Purpose: Provides a unified interface to a set of interfaces in a subsystem
 - Example: Smart home system controlling multiple subsystems
 
+### 5. Strategy Pattern
+- Location: [`strategy/Main.java`](strategy/Main.java)
+- Purpose: Defines a family of algorithms, encapsulates each one, and makes them interchangeable
+- Example: Payment processing system with different payment methods
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -49,6 +54,8 @@ design-patterns/
 │   └── Main.java
 ├── facade/
 │   └── Main.java
+├── strategy/
+│   └── Main.java
 └── README.md
 ```
 
@@ -72,7 +79,7 @@ The patterns in this repository are (or will be) organized into three main categ
 
 3. **Behavioral Patterns**
    - Observer ✅
-   - Strategy
+   - Strategy ✅
    - Command
    - State
    - Template Method
