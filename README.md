@@ -29,6 +29,11 @@ This repository contains implementations of various design patterns in Java. Eac
 - Purpose: Defines a family of algorithms, encapsulates each one, and makes them interchangeable
 - Example: Payment processing system with different payment methods
 
+### 6. Builder Pattern
+- Location: [`builder/Main.java`](builder/Main.java)
+- Purpose: Separates the construction of a complex object from its representation
+- Example: Computer system configuration builder
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -56,6 +61,8 @@ design-patterns/
 │   └── Main.java
 ├── strategy/
 │   └── Main.java
+├── builder/
+│   └── Main.java
 └── README.md
 ```
 
@@ -67,7 +74,7 @@ The patterns in this repository are (or will be) organized into three main categ
    - Singleton ✅
    - Factory ✅
    - Abstract Factory
-   - Builder
+   - Builder ✅
    - Prototype
 
 2. **Structural Patterns**
