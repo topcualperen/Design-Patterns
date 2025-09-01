@@ -73,23 +73,14 @@ The patterns in this repository are (or will be) organized into three main categ
 1. **Creational Patterns**
    - Singleton ✅
    - Factory ✅
-   - Abstract Factory
    - Builder ✅
-   - Prototype
 
 2. **Structural Patterns**
    - Facade ✅
-   - Adapter
-   - Bridge
-   - Composite
-   - Decorator
 
 3. **Behavioral Patterns**
    - Observer ✅
    - Strategy ✅
-   - Command
-   - State
-   - Template Method
 
 ✅ = Implemented
 
