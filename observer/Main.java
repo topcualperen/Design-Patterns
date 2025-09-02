@@ -35,10 +35,10 @@ class NewsAgency {
 
 	public void sendNews(String news) {
 		this.news = news;
-		notifyAllObervers();
+		notifyAllObservers();
 	}
 
-	private void notifyAllObervers() {
+	private void notifyAllObservers() {
 		for (Observer observer : observers) {
 			observer.update(news);
 		}
