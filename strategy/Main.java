@@ -36,6 +36,9 @@ class PaymentContext {
     }
 
     public void executePayment(double amount) {
+        if (paymentStrategy == null) {
+            throw new IllegalArgumentException("Payment strategy cannot be null");
+        }
         paymentStrategy.pay(amount);
     }
 }
