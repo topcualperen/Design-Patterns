@@ -23,6 +23,6 @@ public class DatabaseConnection {
         DatabaseConnection db1 = DatabaseConnection.getInstance();
         DatabaseConnection db2 = DatabaseConnection.getInstance();
         System.out.println("DB1: " + db1);
-        System.out.println("DB2': " + db2);
+        System.out.println("DB2: " + db2);
     }
 }
