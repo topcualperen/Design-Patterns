@@ -38,7 +38,7 @@ class SmartHomeSystem {
 	}
 }
 
-public class Main {
+public class Main2 {
 	public static void main(String[] args){
 		SmartHomeSystem smart = new SmartHomeSystem();
 		smart.leaveHome();
